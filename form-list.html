@@ -1,0 +1,58 @@
+<!DOCTYPEhtml>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport"
+content="width=device-width,initial-scale=1">
+<link rel="stylesheet" type="text/css"
+href="form-style.css">
+<title>My form list</title>
+</head>
+<body>
+<h1><center><marquee>Welcome</marquee></center></h1>
+<div id="border">
+<form action="/my-handling-form-page"
+autocomplete="on">
+<fieldset >
+<legend>Name</legend>
+First name:<input 
+type="textbox" name="first name" 
+placeholder="Enter" required><br>
+Last name:<input 
+type="textbox" name="second name" 
+placeholder="Enter" required><br>
+</fieldset>
+<fieldset>
+<legend>About</legend>
+Email:<input 
+type="email" 
+placeholder="example@gmail.com" required>
+<br>
+Gender:<input type="radio" 
+name="gender" value="male" required>Male
+<input type="radio" name="gender" 
+value="female" reqired>Female<br>
+Level:<select>
+<option value="select">Select</option>
+<option value="beginner">Beginner</option>
+<option 
+value="intermediate">Intermediate</option>
+<option value="advanced">Advanced</option>
+</select></fieldset>
+<fieldset>
+<legend>Encrypted</legend>
+Password:<input type="password" 
+placeholder="password" required><br>
+Phone Number:<input type="number" required><br>
+Date of birth:<input type="date" required><br>
+</fieldset><br>
+<textarea placeholder="message"
+required></textarea><br>
+Upload:<input type="file" 
+name="upload" required>
+<br><br><br>
+<input type="submit" value="send">
+</form><br><br>
+</div>
+</body>
+</html>

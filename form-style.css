@@ -1,0 +1,20 @@
+h1
+{
+color:blue; 
+font-size:300%
+}
+
+body
+{
+background:white fixed center;
+}
+
+#border
+{
+color:black;
+background-color:#00ffff;
+font-family:"Times New Roman";
+border-style:groove;
+border-color:white;
+border-width:50px;
+}
