@@ -6,7 +6,7 @@ font-size:300%
 
 body
 {
-background:white fixed center;
+background:white;
 }
 
 #border
@@ -17,4 +17,5 @@ font-family:"Times New Roman";
 border-style:groove;
 border-color:white;
 border-width:50px;
+  margin:0 auto;
 }
