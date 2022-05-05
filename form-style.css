@@ -17,5 +17,31 @@ font-family:"Times New Roman";
 border-style:groove;
 border-color:white;
 border-width:50px;
-  margin:40px 40px 60px;
+}
+.btn
+
+{
+
+padding:10px 20px;
+
+border-radius:10px;
+
+text-transform:uppercase;
+
+background:#0000ff;
+
+color:#ffffff;
+
+text-decoration:none;
+
+
+}
+.btn:hover
+
+{
+
+color:#ffffff;
+
+background:#000080;
+
 }
