@@ -1,0 +1,40 @@
+h1
+{
+color:blue; 
+font-size:300%;
+text-align:center;
+}
+
+body
+{
+background:white;
+}
+
+#border
+{
+background-color:#00ffff;
+font-family:"Times New Roman";
+border-style:groove;
+border-color:#ffffff;
+border-width:50px;
+text-shadow:2px 1px 2px black;
+}
+i
+{
+color:blue;
+}
+ .btn
+{
+padding:10px 20px;
+border-radius:10px;
+text-transform:uppercase;
+background:#0000ff;
+color:#ffffff;
+text-decoration:none;
+align:center;
+}
+.btn:hover
+{
+color:#ffffff;
+background:#000080
+}

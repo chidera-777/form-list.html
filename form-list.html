@@ -1,0 +1,73 @@
+<!DOCTYPEhtml>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport"
+content="width=device-width,initial-scale=1">
+<link rel="stylesheet" type="text/css"
+href="form-style.css">
+<script src="https://kit.fontawesome.com/2dab97b508.js" crossorigin="anonymous"></script>
+<title>My form list</title>
+</head>
+<body>
+<h1>Welcome</h1>
+<i class="fa-solid fa-list"></i>
+<i class="fa-solid fa-message"></i>
+<header>
+<div id="border">
+<form action="/my-handling-form-page"
+autocomplete="on">
+<fieldset >
+<legend>Name</legend>
+First name:<br>
+<input 
+type="textbox" name="first name" 
+placeholder="Enter" required><br>
+Last name:<br>
+<input 
+type="textbox" name="second name" 
+placeholder="Enter" required><br>
+</fieldset>
+<fieldset>
+<legend>About</legend>
+Email:<br>
+<input 
+type="email" 
+placeholder="example@gmail.com" required>
+<br>
+Gender:<br>
+<input type="radio" 
+name="gender" value="male" required>Male
+<input type="radio" name="gender" 
+value="female" required>Female<br>
+Level:<br>
+<select>
+<option value="select">Select</option>
+<option value="beginner">Beginner</option>
+<option 
+value="intermediate">Intermediate</option>
+<option value="advanced">Advanced</option>
+</select>
+</fieldset>
+<fieldset>
+<legend>Encrypted</legend>
+Password:<br>
+<input type="password" 
+placeholder="password" required><br>
+Phone Number:<br>
+<input type="number" required><br>
+Date of birth:<input type="date" required><br>
+</fieldset><br>
+<textarea placeholder="message"
+required></textarea><br>
+Upload:<br>
+<input type="file" 
+name="upload" required>
+<br><br>
+<a href="#" class="btn">Register</a>
+<br><br>
+</form>
+</div>
+</header>
+</body>
+</html>
