@@ -1,0 +1,50 @@
+*{
+box-sizing:border-box;
+}
+
+.title{
+font-family:"Arial",san-serif;
+font-weight:bold;
+text-align:center;
+font-size:50px;
+color:white;
+padding-top:90px;
+}
+
+body{
+background-color:purple;
+}
+
+.form form{
+margin:50px 30px;
+border-radius:30px;
+background-color:white;
+height:300px;
+}
+
+.form form input{
+margin:0px 30px 30px;
+padding:10px;
+width:78%;
+border-radius:10px;
+border-color:black;
+background:silver;
+}
+
+.form form button{
+margin:10px 30px 20px;
+width:78%;
+padding:8px;
+border-radius:10px;
+background:linear-gradient(to right,purple,fuchsia);
+color:white;
+}
+
+.label{
+margin-left:20px;
+padding-left:10px;
+}
+
+input .checkbox{
+margin:0px;
+}
